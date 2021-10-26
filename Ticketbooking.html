@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicketBooking</title>
+</head>
+<body>
+    <form action="payment.html" onsubmit="myfunction()">
+    <label id="Price" >Ticketprice</label><br><br>
+    <select id="price">
+        <option value="0-100Rs">0-100Rs</option>
+        <option value="101-200Rs">100-200Rs</option>
+        <option value="201-300Rs">200-300Rs</option><br>
+    </select><br><br>
+    <fieldset>
+    <h1>Seating arrangements:</h1>
+    <table border=1>
+        <thead>
+            <tr>
+                <td>BLOCK A:<br><br>
+                    A01<input type="checkbox">                 
+                    A02<input type="checkbox">
+                    A03<input type="checkbox">
+                    A04<input type="checkbox">
+
+                </td><br>
+                <td>BLOCK B:<br><br>
+                 B01<input type="checkbox">
+                 B02<input type="checkbox" >
+                 B03<input type="checkbox" >
+                 B04<input type="checkbox" >
+                 </td>
+                 </tr>
+                 <tr>
+                     <td>
+                        A5<input type="checkbox" >
+                        A6<input type="checkbox" >
+                        A7<input type="checkbox" >
+                        A8<input type="checkbox" >
+                     </td>
+                 <td>
+                    B5<input type="checkbox" >
+                    B6<input type="checkbox">
+                    B7<input type="checkbox">
+                    B8<input type="checkbox">
+                 </td>
+                 </tr>
+                 <tr>
+                     <td>
+                        A9<input type="checkbox">
+                        A10<input type="checkbox">
+                        A11<input type="checkbox">
+                        A12<input type="checkbox">
+                     </td>
+                     <td>
+                        B9<input type="checkbox">
+                        B10<input type="checkbox">
+                        B11<input type="checkbox">
+                        B12<input type="checkbox">
+<tr>
+    <td>BLOCK C:<br><br>
+        C1<input type="checkbox">
+        C2<input type="checkbox">
+        C3<input type="checkbox">
+        C4<input type="checkbox">
+        </td>
+        <td>BLOCK D:<br><br>
+            D1<input type="checkbox">
+            D2<input type="checkbox">
+            D3<input type="checkbox">
+            D4<input type="checkbox">
+        </td>
+        <tr>
+        <td>
+            C5<input type="checkbox" >
+            C6<input type="checkbox" >
+            C7<input type="checkbox" >
+            C8<input type="checkbox" >
+        </td>
+        <td>
+            D5<input type="checkbox" >
+            D6<input type="checkbox" >
+            D7<input type="checkbox" >
+            D8<input type="checkbox" >
+        </td>
+        <tr>
+            <td>
+                C9<input type="checkbox" >
+                C10<input type="checkbox">
+                C11<input type="checkbox">
+                C12<input type="checkbox">
+            </td>
+            <td>
+                D9<input type="checkbox" >
+                D10<input type="checkbox">
+                D11<input type="checkbox">
+                D12<input type="checkbox">
+
+            </td>
+        </tr>
+        </thead>
+    </table>
+    </fieldset>
+    <button type="submit">Book Tickets</button>
+</form>
+<form action="food.html">
+    <button type="submit">food </button>
+</form>
+<script>
+    function myfunction(){
+        alert("The seat was selected")
+    }
+</script>
+</body>
+</html>            
